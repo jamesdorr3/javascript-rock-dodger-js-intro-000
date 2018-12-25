@@ -80,7 +80,7 @@ function createRock(x) {
    * seems like a good pace.)
    */
   function moveRock() {
-    rock.style.top = `${top += 10}px`;
+    rock.style.top = `${top += 2}px`;
     // implement me!
     // (use the comments below to guide you!)
     /**
@@ -161,7 +161,7 @@ function moveDodgerLeft() {
    var left = DODGER.style.left.replace('px','')
    left = parseInt(left, 10)
    if (left > 0){
-     DODGER.style.left = `${left - 10}px`
+     DODGER.style.left = `${left - 4}px`
 }
 }
 
@@ -169,7 +169,7 @@ function moveDodgerRight() {
   var left = DODGER.style.left.replace('px','')
   left = parseInt(left, 10)
   if (left < 360){
-    DODGER.style.left = `${left + 10}px`
+    DODGER.style.left = `${left + 4}px`
   }
   // implement me!
   /**
